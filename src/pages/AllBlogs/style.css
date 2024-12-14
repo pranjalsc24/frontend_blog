@@ -1,0 +1,80 @@
+/* Container for the entire All Blogs Page */
+.allBlgPg-page-container {
+  max-width: 1200px; /* Set max width */
+  margin: 0 auto; /* Center align the container */
+  padding: 20px;
+}
+
+/* Heading for the All Blogs page */
+.allBlgPg-page-container h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Container for all the blog cards */
+.allBlgPg-blogs-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Responsive grid */
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Styling for each Blog Card */
+.allBlgPg-blog-card {
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Blog Image Styling */
+.allBlgPg-blog-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Blog Info Section */
+.allBlgPg-blog-info {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+/* Author Avatar Styling */
+.allBlgPg-author-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px; /* Space between avatar and text */
+}
+
+/* Blog Text Section */
+.allBlgPg-blog-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Blog Title Styling */
+.allBlgPg-blog-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+/* Author Name Styling */
+.allBlgPg-author-name {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}

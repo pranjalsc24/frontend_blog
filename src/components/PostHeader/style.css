@@ -1,0 +1,145 @@
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px; /* Match the width of the comment section */
+  margin: 0 auto;
+  padding: 20px;
+  /* border-bottom: 1px solid #f0f0f0; */
+}
+
+/* Left Section Styling */
+.post-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between avatar and name */
+}
+
+/* Author Avatar */
+.post-header-avatar {
+  width: 50px; /* Match the size of comment avatars */
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Author Name */
+.post-header-name {
+  font-size: 14px; /* Match the font size in the comment section */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Right Section Styling */
+.post-header-right {
+  display: flex;
+  gap: 15px; /* Space between like and share buttons */
+}
+
+/* Like and Share Button Styling */
+.post-header-like,
+.post-header-comment,
+.post-header-share {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.post-header-like:hover,
+.post-header-comment:hover,
+.post-header-share:hover {
+  color: #007bff; /* Highlight on hover */
+}
+
+.post-header-like-count {
+  font-weight: bold;
+}
+
+.share-status {
+  color: #28a745;
+  font-size: 14px;
+  margin-top: 10px;
+  /* font-weight: bold; */
+  font-family: "Arial", sans-serif;
+}
+
+/*  */
+
+/*  */
+
+/*  */
+
+/* PostHeader Styling */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px; /* Match the width of the comment section */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Left Section Styling */
+.post-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between avatar and name */
+}
+
+/* Author Avatar */
+.post-header-avatar {
+  width: 50px; /* Match the size of comment avatars */
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Author Name */
+.post-header-name {
+  font-size: 14px; /* Match the font size in the comment section */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Right Section Styling */
+.post-header-right {
+  display: flex;
+  gap: 15px; /* Space between like and share buttons */
+}
+
+/* Like and Share Button Styling */
+.post-header-like,
+.post-header-comment,
+.post-header-share {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #555;
+  background: #f0f0f0; /* Light background for buttons */
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.post-header-like:hover,
+.post-header-comment:hover,
+.post-header-share:hover {
+  background-color: #0056b3; /* Highlight on hover */
+  color: #fff;
+}
+
+/* Dark color when the post is liked */
+.post-header-like.liked {
+  background-color: #007bff; /* Dark background when liked */
+  color: #fff; /* White text color for contrast */
+}
+
+.post-header-like-count {
+  font-weight: bold;
+}

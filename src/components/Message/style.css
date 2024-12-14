@@ -1,0 +1,9 @@
+.no-blogs-message {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.no-blogs-message p {
+  font-size: 18px;
+}

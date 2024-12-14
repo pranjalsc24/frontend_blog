@@ -1,0 +1,56 @@
+/* Container for the entire Author Page */
+.authorpg-page-container {
+  max-width: 1200px; /* Set max width */
+  margin: 0 auto; /* Center align the container */
+  padding: 20px;
+}
+
+/* Heading for the Author Page */
+.authorpg-page-container h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Container for all the author cards */
+.authorpg-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Styling for each Author Card */
+.authorpg-card {
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  align-items: center; /* Center items horizontally */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%; /* Adjust width to fit three cards per row */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text inside the card */
+}
+
+/* Avatar Image Styling */
+.authorpg-avatar {
+  width: 100px; /* Adjust image size */
+  height: 100px; /* Adjust image size */
+  border-radius: 50%;
+  margin-bottom: 15px; /* Space between image and name */
+}
+
+/* Author Name Styling */
+.authorpg-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px; /* Space between name and blog count */
+}
+
+/* Blog Count Styling */
+.authorpg-blog-count {
+  font-size: 14px;
+  color: #777;
+}

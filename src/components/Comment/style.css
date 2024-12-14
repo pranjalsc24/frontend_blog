@@ -1,0 +1,86 @@
+/* Comment section styling */
+.comment-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border-top: 2px solid #ddd; */
+}
+
+/* Styling for individual comments */
+.comment {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Avatar image styling for comments */
+.comment-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Content styling for comments */
+.comment-content {
+  max-width: 90%;
+  flex-grow: 1;
+}
+
+/* Username styling */
+.comment-username {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Comment text styling */
+.comment-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: row; /* Arrange items in a row */
+  align-items: center; /* Align items vertically */
+  margin-top: 20px;
+  gap: 10px; /* Add spacing between textarea and button */
+}
+
+/* Textarea for comment input */
+.comment-textarea {
+  flex-grow: 1; /* Allow textarea to take up available space */
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+}
+/* Submit button styling */
+.submit-comment-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-comment-btn:hover {
+  background-color: #0056b3;
+}
+
+.comments-header {
+  font-size: 20px; /* Larger font size for emphasis */
+  font-weight: 600; /* Semi-bold for a clean, modern look */
+  color: #333; /* Dark color for good contrast */
+  margin-bottom: 20px; /* Space it out from the comments section */
+  text-align: left; /* Align to the left for better readability */
+}

@@ -1,0 +1,78 @@
+/* Main container styling */
+.crte-blg-create-blog {
+  max-width: 600px;
+  margin: 20px auto; /* Center the component and add top margin */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header styling */
+.crte-blg-header {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center; /* Center the header text */
+}
+
+.crte-blg-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Form styling */
+.crte-blg-blog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.crte-blg-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.crte-blg-form-group label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.crte-blg-form-group input[type="text"],
+.crte-blg-form-group textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.crte-blg-form-group textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Remove border/box around the file input */
+.crte-blg-image-input {
+  border: none;
+  padding: 0;
+}
+
+/* Right-aligned submit button */
+.crte-blg-submit-btn {
+  padding: 8px 20px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-end; /* Right-align the button */
+}
+
+.crte-blg-submit-btn:hover {
+  background-color: #0056b3;
+}
